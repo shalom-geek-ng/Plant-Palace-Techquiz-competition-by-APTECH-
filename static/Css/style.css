@@ -1,0 +1,64 @@
+*{
+    padding: 0px ;
+    margin: 0px ;
+    box-sizing: border-box;
+    list-style: none !important;
+    text-decoration: none !important;
+
+}
+:root{
+ --nav-font: 'Roboto', sans-serif;
+}
+.nav-font{
+  font-family: var(--nav-font);
+}
+nav ul li{
+  margin: 0px 20px;
+}
+.landing-page{
+    background: url(../img/plant-carousel1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+.custom-box {
+    display: inline-block;
+    padding: 10px;
+    background: linear-gradient(90deg, lemonchiffon 50%, greenyellow 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.3s ease-in-out;
+    color: black;
+  }
+
+  .custom-box:hover {
+    background-position: left;
+  }
+  .navbar {
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+  }
+  .nav-scrolled {
+    background-color: black;
+    box-shadow: 0 3px rgba(0, 0, 0, .15);
+    border: 0px !important;
+  }
+  .nav-tab-link {
+    color: black !important; /* Change the color to green */
+  }
+
+  /* Customize active tab label color */
+  .nav-tab-link.active {
+    color: greenyellow !important; /* Change the color of the active tab to a darker green */
+  }
+  .learn-div{
+    cursor: pointer;
+  }
+  u {
+    text-decoration: underline !important;
+  }
