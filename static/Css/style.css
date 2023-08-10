@@ -8,9 +8,13 @@
 }
 :root{
  --nav-font: 'Roboto', sans-serif;
+ --landing-heading: 'Roboto', sans-serif;
 }
 .nav-font{
   font-family: var(--nav-font);
+}
+.landing-heading{
+  font-family: var(--landing-heading);
 }
 nav ul li{
   margin: 0px 20px;
@@ -28,13 +32,17 @@ nav ul li{
 .custom-box {
     display: inline-block;
     padding: 10px;
-    background: linear-gradient(90deg, lemonchiffon 50%, greenyellow 50%);
+    background: linear-gradient(90deg, lemonchiffon 50%, #8bc34a 50%);
     background-size: 200% 100%;
     background-position: right;
     transition: background-position 0.3s ease-in-out;
     color: black;
   }
-
+.learn-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
   .custom-box:hover {
     background-position: left;
   }
@@ -54,11 +62,18 @@ nav ul li{
 
   /* Customize active tab label color */
   .nav-tab-link.active {
-    color: greenyellow !important; /* Change the color of the active tab to a darker green */
+    color: #8bc34a !important; /* Change the color of the active tab to a darker green */
   }
   .learn-div{
     cursor: pointer;
   }
   u {
     text-decoration: underline !important;
+  }
+
+
+  .modal-image {
+    width: 90%;
+    margin: 0 auto;
+    aspect-ratio: 16/9;
   }

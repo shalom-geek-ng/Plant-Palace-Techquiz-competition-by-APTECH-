@@ -1,14 +1,46 @@
 {
-    "name": "Spider Plant",
-    "category": "Indoor Plant",
-    "botanicalName": "Chlorophytum comosum",
-    "price": "N5000",
-    "image": "static/img/spider-plant.jpg",
-    "description": "Easy-care indoor plant...",   
-    "details": {
-      "light": "Bright, indirect light",
-      "water": "Allow soil to dry between waterings",
-      "size": "Medium, up to 2 feet",
-      "blooms": "Occasional small white flowers"
+  "data": [
+    {
+      "name": "Spider Plant",
+      "category": "Indoor Plant",
+      "botanicalName": "Chlorophytum comosum",
+      "price": "N5000",
+      "image": "static/img/spider-plant.jpg",
+      "description": "Easy-care indoor plant...",
+      "details": {
+        "light": "Bright, indirect light",
+        "water": "Allow soil to dry between waterings",
+        "size": "Medium, up to 2 feet",
+        "blooms": "Occasional small white flowers"
+      }
+    },
+    {
+      "name": "Spider bread",
+      "category": "Indoor Plant",
+      "botanicalName": "Chlorophytum comosum",
+      "price": "N5000",
+      "image": "static/img/spider-plant.jpg",
+      "description": "Easy-care indoor plant...",
+      "details": {
+        "light": "Bright, indirect light",
+        "water": "Allow soil to dry between waterings",
+        "size": "Medium, up to 2 feet",
+        "blooms": "Occasional small white flowers"
+      }
+    },
+    {
+      "name": "Spider Plant",
+      "category": "Indoor Plant",
+      "botanicalName": "Chlorophytum comosum",
+      "price": "N5000",
+      "image": "static/img/spider-plant.jpg",
+      "description": "Easy-care indoor plant...",
+      "details": {
+        "light": "Bright, indirect light",
+        "water": "Allow soil to dry between waterings",
+        "size": "Medium, up to 2 feet",
+        "blooms": "Occasional small white flowers"
+      }
     }
-  }
+  ]
+}
