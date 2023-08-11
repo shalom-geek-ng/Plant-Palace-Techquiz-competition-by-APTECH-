@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Plant-Palace</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="./static/Css/style.css">
@@ -15,6 +15,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,7 +26,7 @@
   <nav class="navbar  fixed-top navbar-expand-lg navbar-dark"
     style="border-bottom: 2px solid white; padding-bottom: 20px;">
     <div class="container">
-      <a class="navbar-brand" href="#">PLANTPALACE</a>
+      <a class="navbar-brand" href="#">PLANT<span style="color: #8bc34a;">PALACE</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,7 +34,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav nav-font mx-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a  class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="about.html">About</a>
@@ -39,16 +42,11 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
           </li>
-          <li class="nav-item ms-auto">
-            <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></a>
-          </li>
+        
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2 bg-light" style="border: 0px !important;" type="search"
-            placeholder="Search Our Catelog" aria-label="Search">
-          <i class="fa fa-search" aria-hidden="true" style="font-size: 20px; color: white; margin: auto;"></i>
-        </form>
+        
+           <a class="nav-link active"  style="color: white;" aria-current="page" href="#"><i class="fa fa-shopping-cart fs-4"
+            aria-hidden="true"></i> </a>
       </div>
     </div>
   </nav>
@@ -155,6 +153,13 @@
 
   <!-- nav & tabs start -->
   <!--  -->
+  <div style="width: 50% !important; height: fit-content !important; margin: auto !important; ">
+  <form class="d-flex" role="search" style="width: fit-content !important; text-align: center !important; height: fit-content !important; padding: 30px; margin: auto !important;"></form>
+</div>
+<div style="width: fit-content; height: fit-content; margin: auto;">
+    <input class="form-control me-2 bg-light" style="border: 0px !important; width: 600px; height: 50px; border-radius: 30px !important; margin: auto;" type="search"
+      placeholder="Search Our Plants in each categories...." aria-label="Search">
+    </div>
   <div class="landing-heading" id="Categories" style=" text-align: center;"><h3 style="color: #8bc34a;"><span style="color: black;">PLANT</span> CATEGORIES</h3></div>
   <nav style="margin:50px auto ; width: fit-content;">
     <div class="nav nav-tabs" id="nav-tab" role="tablist" style="color: #8bc34a !important;">
@@ -1616,27 +1621,602 @@
 
     <!-- div nav-flowering start -->
     <div class="tab-pane fade mt-3" id="nav-flowering" role="tabpanel" aria-labelledby="nav-flowering-tab" tabindex="0">
-      <!-- row start -->
-      <div class="row">
+      <!-- row1 outdoor start -->
+      <div class="row mt-3 gx-3">
+        <!-- box1 start -->
         <div class="box col-lg-3 col-md-6 col-sm-12 mt-1">
-          <div class="boxed bg-danger" style="height: 200px;"></div>
+          <!-- boxed1 start -->
+          <div class="boxed bg-light" style="height: fit-content;">
+            <img src="static/img/Rose.jpg"
+              style="width: 100%; height: 250px; object-fit: cover; object-position: center;" alt="">
+            <!--  -->
+            <div class="boxed-bottom-text" style="padding: 0px 15px; height: fit-content;">
+              <p>Category</strong>: Flowering Shrubs <br>
+                <strong>Plant-name</strong>: Rose <br>
+                <!--   -->
+                <strong>Price</strong>: N500
+              </p>
+              <div class="category-bottom-box">
+                <div class="cart-btn" >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></div>
+              <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Rose2">
+                Read More...</div>
+              </div>
+
+          <!--chinesemodal start -->
+              
+          <div class="modal fade" id="Rose2" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Echeveira</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="static/img/Rose.jpg" style="width: 100%; height: 300px; object-fit: cover; object-position: center;" alt="">
+                <p><strong>Category</strong>: Flowering shrubs </p> 
+                <p><strong>Plant-name</strong>:<strong>Rose</strong>  </p>
+                <p><strong>Botanical-name</strong>: <strong> <u>Rose spp</u></strong> </p>
+                <p><strong>Price</strong>: N500</p>
+                <p><strong>Light</strong>:  Rose thrive in full sun to part shade, requiring around 4 to 6 hours of direct sunlight daily.</p>
+                <p><strong>Water</strong>: Allow the soil to dry out completely between waterings; water sparingly to prevent root rot.</p>
+                <p><strong>Size</strong>:Typically grows as compact rosettes, ranging from a few inches to around 1 foot (8 to 30 cm) in diameter.</p>
+                <p><strong>Blooms</strong>:  Known for their bell-shaped flowers that appear on tall stalks, showcasing a variety of colors.</p>
+                <p><strong>Origin Country</strong>:     Echeverias are native to the Americas, primarily found in arid regions of Mexico, Central America, and South America.</p>
+              </div>
+              <div class="modal-footer">
+
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- chinesemodal end -->
+            </div>
+            <!--  -->
+          </div>
+          <!-- boxed1 end -->
+        </div>
+        <!-- box1 end -->
+
+        <!-- box2 start -->
         <div class="box col-lg-3 col-md-6 col-sm-12 mt-1">
-          <div class="boxed bg-danger" style="height: 200px;"></div>
+          <!-- boxed2 start -->
+          <div class="boxed bg-light" style="height: fit-content; ">
+            <img src="static/img/Lilac.jpg"
+              style="width: 100%; height: 250px; object-fit: cover; object-position: center;" alt="">
+            <!--  -->
+            <div class="boxed-bottom-text" style="padding: 0px 15px;">
+              <p><strong>Category</strong>: Flowering Shrubs<br>
+             <strong>Plant-name</strong>: Lilac<br>
+             <!--  -->
+             <strong>Price</strong>: N1,000</p>
+             <div class="category-bottom-box">
+              <div class="cart-btn" >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></div>
+              <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Lilac">
+                Read More...</div>
+             </div>
+
+              <!--Seperviummodal start -->
+              
+          <div class="modal fade" id="Lilac" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Lilac</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="static/img/Sempervivum.jpg" style="width: 100%; height: 300px; object-fit: cover; object-position: center;" alt="">
+                <p><strong>Category</strong>: Flowering Shrubs </p> 
+                <p><strong>Plant-name</strong>:<strong>Lilac</strong>  </p>
+                <p><strong>Botanical-name</strong>: <strong> <u>Syringa vulgaris</u></strong> </p>
+                <p><strong>Price</strong>: N1,000</p>
+                <p><strong>Light</strong>:   Sempervivum spp. thrive in full sun to part shade, needing around 4 to 6 hours of direct sunlight daily.</p>
+                <p><strong>Water</strong>:Allow the soil to dry out between waterings; water sparingly to avoid overly moist conditions.</p>
+                <p><strong>Size</strong>:Typically forms low rosettes, varying from a few inches to around 6 inches (8 to 15 cm) in diameter.</p>
+                <p><strong>Blooms</strong>:   Known for their star-like flowers that emerge on tall stems, showcasing diverse colors.</p>
+                <p><strong>Origin Country</strong>:     Sempervivum spp., also known as houseleeks or hens and chicks, have native ranges across Europe and Asia, particularly in rocky and alpine areas.</p>
+              </div>
+              <div class="modal-footer">
+
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- serperviummodal end -->
+
+            </div>
+            <!--  -->
+          </div>
+          <!-- boxed2 end -->
+        </div>
+        <!--box2 end  -->
+
+
+        <!-- box3 start -->
         <div class="box col-lg-3 col-md-6 col-sm-12 mt-1">
-          <div class="boxed bg-danger" style="height: 200px;"></div>
+          <!-- boxed3 start -->
+          <div class="boxed bg-light" style="">
+            <img src="static/img/Crassula.jpg"
+              style="width: 100%; height: 250px; object-fit: cover; object-position: center;" alt="">
+            <!--  -->
+            <div class="boxed-bottom-text" style="padding: 0px 15px;">
+              <p><strong>Category</strong>: Flowering Shrubs<br> 
+             <strong>Plant-name</strong>: Hydrangea <br>
+             <!--  -->
+             <strong>Price</strong>: N10,000</p>
+             <div class="category-bottom-box">
+                <div class="cart-btn" >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></div>
+             <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Hydrangea">
+              Read More...</div>
+           </div>
+
+           <!--sunflower start -->
+              
+          <div class="modal fade" id="Hydrangea" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Hydrangea</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="static/img/Hydrangea.jpg" style="width: 100%; height: 300px; object-fit: cover; object-position: center;" alt="">
+                <p><strong>Category</strong>: Flowering Shrubs </p> 
+                <p><strong>Plant-name</strong>:<strong>Hydrangea</strong>  </p>
+                <p><strong>Botanical-name</strong>: <strong> <u>Hydrangea spp</u></strong> </p>
+                <p><strong>Price</strong>: N10,000</p>
+                <p><strong>Light</strong>:   Hydrangea plants thrive in full sun to bright indirect light, needing around 4 to 6 hours of direct sunlight daily.</p>
+                <p><strong>Water</strong>: Allow the soil to dry out between waterings; water sparingly, as they're drought-tolerant succulents.</p>
+                <p><strong>Size</strong>:Varies based on the species, ranging from small rosettes a few inches wide to larger plants up to 2 feet (60 cm) tall.</p>
+                <p><strong>Blooms</strong>: Known for their clusters of small, star-like flowers in shades of white, pink, or red.</p>
+                <p><strong>Origin Country</strong>: Crassula plants are native to various regions around the world, including Africa, Madagascar, and parts of Asia, particularly in arid and semi-arid climates.
+                </p>
+              </div>
+              <div class="modal-footer">
+
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- sunflower end -->
+
+            </div>
+            <!--  -->
+          </div>
+          <!-- boxed3 end -->
+        </div>
+        <!-- box3 end -->
+
+        <!-- box4 start -->
         <div class="box col-lg-3 col-md-6 col-sm-12 mt-1">
-          <div class="boxed bg-danger" style="height: 200px;"></div>
+          <!-- boxed4 start -->
+          <div class="boxed bg-light" style="height: fit-content; ">
+            <img src="static/img/Azalea.jpg"
+              style="width: 100%; height: 250px; object-fit: cover; object-position: center;" alt="">
+            <!--  -->
+            <div class="boxed-bottom-text" style="padding: 0px 15px;">
+              <p><strong>Category</strong>:Flowering Shrubs <br> 
+             <strong>Plant-name</strong>: Azalea<br>
+             <!--  -->
+             <strong>Price</strong>: N2,000</p>
+             <div class="category-bottom-box">
+              <div class="cart-btn" >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></div>
+              <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Azalea">
+                Read More...</div>
+             </div>
+
+             <!--Tulip start -->
+              
+          <div class="modal fade" id="Azalea" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Azalea</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="static/img/Azalea.jpg" style="width: 100%; height: 300px; object-fit: cover; object-position: center;" alt="">
+                <p><strong>Category</strong>: Flowering Shrubs </p> 
+                <p><strong>Plant-name</strong>:<strong>Azalea</strong>  </p>
+                <p><strong>Botanical-name</strong>: <strong> <u> Rhododendron spp</u></strong></p>
+                <p><strong>Price</strong>: N2,000</p>
+                <p><strong>Light</strong>:    Azalea thrives in bright indirect light to full sun, needing around 6 hours of direct sunlight daily.</p>
+                <p><strong>Water</strong>:Allow the soil to dry out completely between waterings; water sparingly to prevent over-watering.</p>
+                <p><strong>Size</strong>:Typically grows in rosettes, varying in size from small indoor plants to larger specimens up to 2 feet (60 cm) tall.</p>
+                <p><strong>Blooms</strong>:Known for their tall flower spikes that bear tubular, orange or yellow flowers.</p>
+                <p><strong>Origin Country</strong>: Aloe vera is native to the Arabian Peninsula, but it's now cultivated worldwide for its medicinal and ornamental purposes.
+                </p>
+              </div>
+              <div class="modal-footer">
+
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- Tulip end -->
+            </div>
+            <!--  -->
+          </div>
+          <!-- boxed4 end -->
+        </div>
+        <!-- box4 end -->
       </div>
-      <!-- row end -->
+      <!-- row1 outdoor end -->
+
+
+      <!-- row2 outdoor start -->
+      <div class="row mt-3 gx-3">
+        <!-- box1 start -->
+        <div class="box col-lg-3 col-md-6 col-sm-12 mt-1">
+          <!-- boxed1 start -->
+          <div class="boxed bg-light" style="height: fit-content; ">
+            <img src="static/img/Forsythia.jpg"
+              style="width: 100%; height: 250px; object-fit: cover; object-position: center;" alt="">
+            <!--  -->
+            <div class="boxed-bottom-text" style="padding: 0px 15px;">
+              <p><strong>Category</strong>: Flowering Shrubs <br>
+            <strong>Plant-name</strong>: Forsythia<br>
+            <!--  -->
+            <strong>Price</strong>: N12,000</p>
+
+            <div class="category-bottom-box">
+              <div class="cart-btn" >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></div>
+              <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Forsythia">
+                Read More...</div>
+            </div>
+
+                          <!--SedumModal start -->
+              
+          <div class="modal fade" id="Forsythia" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Forsythia</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="static/img/Sedum.jpg" style="width: 100%; height: 300px; object-fit: cover; object-position: center;" alt="">
+                <p><strong>Category</strong>: Flowering Shrubs</p> 
+                <p><strong>Plant-name</strong>:<strong>Forsythia</strong>  </p>
+                <p><strong>Botanical-name</strong>: <strong> <u>Forsythia spp</u></strong></p>
+                <p><strong>Price</strong>: N12,000</p>
+                <p><strong>Light</strong>:   Forsythia plants thrive in full sun to part shade, needing around 4 to 6 hours of direct sunlight daily.</p>
+                <p><strong>Water</strong>: Allow the soil to dry out between waterings; water sparingly as they are drought-tolerant succulents.</p>
+                <p><strong>Size</strong>:Varies widely based on the species, ranging from low-growing ground covers to taller plants up to 2 feet (60 cm) tall.</p>
+                <p><strong>Blooms</strong>:  Known for their clusters of star-shaped flowers in various colors, attracting pollinators.</p>
+                <p><strong>Origin Country</strong>: Forsythia plants have a global distribution, with various species found in regions across Europe, Asia, North America, and other parts of the world.
+
+
+
+
+
+
+                </p>
+              </div>
+              <div class="modal-footer">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SedumModal end -->
+            </div>
+            <!--  -->
+          </div>
+          <!-- boxed1 end -->
+        </div>
+        <!-- box1 end -->
+
+        <!-- box2 start -->
+        <div class="box col-lg-3 col-md-6 col-sm-12 mt-1">
+          <!-- boxed2 start -->
+          <div class="boxed bg-light" style="height: fit-content;">
+            <img src="static/img/Rhododendron.jpg"
+              style="width: 100%; height: 250px; object-fit: cover; object-position: center;" alt="">
+            <!--  -->
+            <div class="boxed-bottom-text" style="padding: 0px 15px;">
+              <p><strong>Category</strong>:Flowering Shrubs <br>
+             <strong>Plant-name</strong>: Rhododendron <br>
+             <!--  -->
+             <strong>Price</strong>: N4,000</p>
+
+             <div class="category-bottom-box">
+              <div class="cart-btn" >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></div>
+              <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Rhododendron">
+                Read More...</div>
+            </div>
+
+             <!--GeraniumModal start -->
+              
+          <div class="modal fade" id="Rhododendron" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Rhododendron</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="static/img/Rhododendron.jpg" style="width: 100%; height: 300px; object-fit: cover; object-position: center;" alt="">
+                <p><strong>Category</strong>: Flowering Shrubs </p> 
+                <p><strong>Plant-name</strong>:<strong>Rhododendron</strong>  </p>
+                <p><strong>Botanical-name</strong>: <strong> <u>Rhododendron spp.</u></strong></p>
+                <p><strong>Price</strong>: N4,000</p>
+                <p><strong>Light</strong>: Rhododendron thrives in bright indirect light to full sun, needing around 4 to 6 hours of direct sunlight daily.</p>
+                <p><strong>Water</strong>:Allow the soil to dry out between waterings; water sparingly as they prefer well-draining soil.</p>
+                <p><strong>Size</strong>:Varies by species, ranging from compact varieties a few inches tall to larger types up to 2 feet (60 cm) in height.</p>
+                <p><strong>Blooms</strong>: Known for their colorful, bell-shaped flowers that come in shades of red, orange, pink, or yellow.</p>
+                <p><strong>Origin Country</strong>:  Rhododendron plants are native to various regions, including Madagascar, Africa, and parts of Asia, where they often grow in arid and semi-arid environments.
+
+
+
+
+
+                </p>
+              </div>
+              <div class="modal-footer">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- GeraniumModal end -->
+            </div>
+            <!--  -->
+          </div>
+          <!-- boxed2 end -->
+        </div>
+        <!--box2 end  -->
+
+
+        <!-- box3 start -->
+        <div class="box col-lg-3 col-md-6 col-sm-12 mt-1">
+          <!-- boxed3 start -->
+          <div class="boxed bg-light" style="height: fit-content; ">
+            <img src="static/img/Spirea.jpg"
+              style="width: 100%; height: 250px; object-fit: cover; object-position: center;" alt="">
+            <!--  -->
+            <div class="boxed-bottom-text" style="padding: 0px 15px;">
+              <p><strong>Category</strong>: Flowering Shrubs<br>
+             <strong>Plant-name</strong>:Spirea <br>
+             <!--  -->
+             <strong>Price</strong>: N2,000</p>
+             <div class="category-bottom-box">
+              <div class="cart-btn" >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></div>
+              <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Spirea">
+                Read More...</div>
+             </div>
+
+
+              <!--marigoldModal start -->
+              
+          <div class="modal fade" id="Spirea" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Spirea</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="static/img/Spirea.jpg" style="width: 100%; height: 300px; object-fit: cover; object-position: center;" alt="">
+                <p><strong>Category</strong>: Flowering Shrubs </p> 
+                <p><strong>Plant-name</strong>:<strong>Spirea</strong>  </p>
+                <p><strong>Botanical-name</strong>: <strong> <u>Spirea spp.</u></strong></p>
+                <p><strong>Price</strong>: N2,000</p>
+                <p><strong>Light</strong>: Spirea plants thrive in full sun, requiring around 6 to 8 hours of direct sunlight daily.</p>
+                <p><strong>Water</strong>: Allow the soil to dry out completely between waterings; water sparingly as they are drought-tolerant succulents.</p>
+                <p><strong>Size</strong>: Varies by species, ranging from small rosettes a few inches wide to larger plants with heights up to 10 feet (3 meters).</p>
+                <p><strong>Blooms</strong>: Known for their tall flowering stalks that bear impressive clusters of flowers, often appearing once in their lifetime.</p>
+                <p><strong>Origin Country</strong>: Agave plants are native to the Americas, primarily found in arid and desert regions of North and South America.
+                </p>
+              </div>
+              <div class="modal-footer">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- GeraniumModal end -->
+            </div>
+            <!--  -->
+          </div>
+          <!-- boxed3 end -->
+        </div>
+        <!-- box3 end -->
+
+        <!-- box4 start -->
+        <div class="box col-lg-3 col-md-6 col-sm-12 mt-1">
+          <!-- boxed4 start -->
+          <div class="boxed " style="height: fit-content; ">
+            <img src="static/img/Haworthia.jpg"
+              style="width: 100%; height: 250px; object-fit: cover; object-position: center;" alt="">
+            <!--  -->
+            <div class="boxed-bottom-text" style="padding: 0px 15px;">
+              <p><strong>Category</strong>: Flowering Shrubs <br>
+             <strong>Plant-name</strong>: Haworthia <br>
+             <!--  -->
+             <strong>Price</strong>: N5,000</p>
+
+             <div class="category-bottom-box">
+              <div class="cart-btn" >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></div>
+              <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Haworthia">
+                Read More...</div>
+                </div>
+
+                <!--daisyModal start -->
+              
+          <div class="modal fade" id="Haworthia" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Haworthia</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="static/img/Haworthia.jpg" style="width: 100%; height: 300px; object-fit: cover; object-position: center;" alt="">
+                <p><strong>Category</strong>: Succulent Plants </p> 
+                <p><strong>Plant-name</strong>:<strong>Haworthia</strong>  </p>
+                <p><strong>Botanical-name</strong>: <strong> <u>Haworthia spp.</u></strong></p>
+                <p><strong>Price</strong>: N5,000</p>
+                <p><strong>Light</strong>: Haworthia plants thrive in bright indirect light to partial shade, needing around 4 hours of direct sunlight daily.</p>
+                <p><strong>Water</strong>:  Allow the soil to dry out between waterings; water sparingly as they are drought-resistant succulents.</p>
+                <p><strong>Size</strong>:Typically grows in rosettes, varying in size from small plants a few inches wide to larger ones around 6 inches (15 cm) tall.</p>
+                <p><strong>Blooms</strong>: Known for their small, tubular white or pink flowers that emerge on thin stems.</p>
+                <p><strong>Origin Country</strong>:Haworthia plants are native to southern Africa, particularly regions like South Africa and Namibia, where they grow in rocky and semi-arid habitats.
+                </p>
+              </div>
+              <div class="modal-footer">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- daisyModal end -->
+            </div>
+            <!--  -->
+          </div>
+          <!-- boxed4 end -->
+        </div>
+        <!-- box4 end -->
+      </div>
+      <!-- row2 outdoor end -->
     </div>
     <!-- div nav-flowering end -->
   </div>
   <!--  -->
   <!-- nav & tabs end -->
+
+  <!-- Footer -->
+<footer class="text-center container-fluid text-lg-start  text-muted mt-3" style="background-color: #8bc34a; color: black !important;">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+   
+    <!-- Left -->
+
+    <!-- Right -->
+   
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4 ">
+            <i class="fas fa-gem me-3 text-secondary"></i>Plant-Palace
+          </h6>
+          <p class="">
+            Thank you for visiting our Plant website! We hope you found the perfect plant to meet your needs. At Plant-palace, we are committed to providing our customers with high-quality products and exceptional customer service.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 ">
+            Links
+          </h6>
+            <p><a data-i18n class="nav-link " aria-current="page" href="index.html">Home</a>
+ 
+           </p>
+           <p  class="nav-item">
+             <a data-i18n class="nav-link " href="about.html">About Us</a>
+           </p>
+          
+           
+           <p  class="nav-item">
+             <a data-i18n class="nav-link " href="contact.html">Contact</a>
+           </p>
+           <p  class="nav-item">
+             <a data-i18n class="nav-link " href="site.html">Site map</a>
+           </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" >
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Follow us on
+          </h6>
+          <p style="text-align: center;">
+            <a href="https://web.facebook.com/shalom.oluwafemi.92" > <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-thin fa-stack-2x" style="color:black;"></i>
+              <i class="fa fa-facebook fa-stack-1x " style="color: black; "></i>
+          </a>
+          </p>
+          <p style="text-align: center;">
+            <a href="https://www.instagram.com/shalomoluwafemi/">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x" style="color: black;"></i>
+                <i class="fa fa-instagram fa-stack-1x" style="color: black;"></i>
+            </a>
+          </p>
+          <p style="text-align: center;">
+            <a href="https://twitter.com/OluwafemiShalo1"> <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-thin fa-stack-2x" style="color: black;"></i>
+              <i class="fa fa-twitter fa-stack-1x" style="color: black;"></i>
+          </a>
+          </p>
+          <p style="text-align: center;">
+            <a href="https://github.com/shalom-geek-ng">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x" style="color: black;"></i>
+                <i class="fa fa-github fa-stack-1x" style="color: black;"></i>
+              </a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p class=""> 16,Express Road, Aptech, Ogun State.</p>
+          <p class="">
+           
+           oluwafemishalom3@gmail.com
+          </p>
+          <p class=""> +234 816 664 98 97</p>
+          
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025); color: black;">
+   Plant-Palace 2023 Presented by <span style="color: black;"><strong> The Algorithm Army</strong></span>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
