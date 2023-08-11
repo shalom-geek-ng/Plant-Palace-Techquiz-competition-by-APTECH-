@@ -33,11 +33,12 @@ nav ul li{
 .custom-box {
     display: inline-block;
     padding: 10px;
-    background: linear-gradient(90deg, lemonchiffon 50%, #8bc34a 50%);
+    background: linear-gradient(90deg, white 50%, #8bc34a 50%);
     background-size: 200% 100%;
     background-position: right;
     transition: background-position 0.3s ease-in-out;
     color: black;
+    margin: auto !important;
   }
 .learn-div{
   display: flex;
