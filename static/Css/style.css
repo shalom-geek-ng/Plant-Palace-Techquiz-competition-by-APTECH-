@@ -586,6 +586,9 @@ p{
         width: 100% !important;
         margin: auto !important;
     }
+    .about-product-img{
+        margin: auto !important;
+    }
 }
 
 /* site-Map-styling-start */
