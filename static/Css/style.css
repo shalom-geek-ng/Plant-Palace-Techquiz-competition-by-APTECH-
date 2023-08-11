@@ -1,4 +1,5 @@
 *{
+
     padding: 0px ;
     margin: 0px ;
     box-sizing: border-box;
@@ -77,3 +78,487 @@ nav ul li{
     margin: 0 auto;
     aspect-ratio: 16/9;
   }
+
+.wrapper-Main-bbx{
+  overflow: hidden !important;
+  overflow-y: hidden !important;
+}
+.about-main-bg{
+  background-image: url(../img-about/landing-about.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+
+}
+.boxed-bottom-text{
+    padding: 0px 15px; 
+    padding-bottom: 10px !important; 
+    height: fit-content;
+}
+  .line{
+    width: 39px;
+    height: 3px;
+    background-color: rgb(0,153,97);
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  /* contact-styling-start */
+  .contact-bg{
+    height: 88%;
+    /* background-image: url(download-darken.png); */
+    background-image: url(../img-about/contact-landing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.over-contact{
+    overflow-x: hidden;
+    overflow: hidden;
+}
+.line-2{
+    width: 1px;
+    height: 25px;
+    background-color: greenyellow;
+   
+}
+.line-1{
+     width: 56px;
+    height: 1px; 
+    background-color: greenyellow;
+      
+}
+.field{
+    position: relative;
+    height: 52px;
+    width: 100%;
+    /* max-width: 150px; */
+    color: white;
+    overflow: hidden;
+}
+.field input{
+    position: absolute;
+    height: 100%;
+     /* width: 100%; */
+    color: white;
+    line-height: 52px;
+    outline: 0;
+    background-color: inherit;
+    padding-top: 25px;
+    border: none;
+    box-sizing: border-box;
+}
+.field .label-wrapper{
+    position: absolute;
+    height: 100%;
+     width: 88%; 
+    bottom: 0;
+    background-color: inherit;
+    left: 0;
+    pointer-events: none;
+    border-bottom: 1px solid white;
+}
+.field textarea{
+    position: absolute;
+    /* background-color: red; */
+    height: 100%;
+    color: white;
+    outline: 0;
+    background-color: inherit;
+    padding-top: 25px;
+    border: none;
+    /* padding: 25px; */
+    box-sizing: border-box;
+    /* line-height: 100px; */
+}
+
+/* btn-styling-start*/
+.sumbit-btn{
+    padding: 10px 25px;
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+}
+/* client-styling-start*/
+/* client-review-start*/
+.clint-bg{
+    height: 100%;
+    padding: 100px;
+   
+  background-image: url(../img-about/footer-contact.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.client-1{
+    /* height: 250px; */
+     padding: 3px; 
+    background-color: black;
+    border-radius: 8px;
+}
+.client-2{
+     padding: 4px; 
+   background-color: greenyellow;
+    border-radius: 8px;
+}
+.client-3{
+    
+    padding: 6px;
+    background-color: black;
+    border-radius: 8px;
+}
+.learn-div{
+    margin: auto;
+    border-radius: 15px !important;
+    width: fit-content; color: black;
+    height: fit-content; 
+    padding: 10px ;
+}
+.category-bottom-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-btn{
+    color:white;
+    background-color: #8bc34a;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+.category-bottom-box{
+    margin: auto !important;
+}
+/*  */
+@media screen and (max-width:490px){
+    .client-1{
+        width: 350px;
+        margin-left: -50px;
+    }
+    .client-2{
+        width: 350px;
+        margin-left: -50px;
+    }
+    .client-3{
+        width: 350px;
+        margin-left: -50px;
+    }
+
+}
+@media screen and (max-width:444px){
+    .client-1{
+        width: 350px;
+        margin-left: -60px;
+    }
+    .client-2{
+        width: 350px;
+        margin-left: -60px;
+    }
+    .client-3{
+        width: 350px;
+        margin-left: -60px;
+    }
+    
+}
+@media screen and (max-width:428px){
+    .client-1{
+        width: 350px;
+        margin-left: -70px;
+    }
+    .client-2{
+        width: 350px;
+        margin-left: -70px;
+    }
+    .client-3{
+        width: 350px;
+        margin-left: -70px;
+    }
+    
+    
+}
+@media screen and (max-width:414px){
+    .client-1{
+        width: 350px;
+        margin-left: -77px;
+    }
+    .client-2{
+        width: 350px;
+        margin-left: -77px;
+    }
+    .client-3{
+        width: 350px;
+        margin-left: -77px;
+    }
+
+}
+@media screen and (max-width:406px){
+    .client-1{
+        width: 350px;
+        margin-left: -80px;
+    }
+    .client-2{
+        width: 350px;
+        margin-left: -80px;
+    }
+    .client-3{
+        width: 350px;
+        margin-left: -80px;
+    }
+}
+
+@media screen and (max-width:397px){
+    .client-1{
+        width: 350px;
+        margin-left: -82px;
+    }
+    .client-2{
+        width: 350px;
+        margin-left: -82px;
+    }
+    .client-3{
+        width: 350px;
+        margin-left: -82px;
+    }
+}
+@media screen and (max-width:389px){
+    .client-1{
+        width: 339px;
+         margin-right: -40px !important ;
+    }
+    .client-2{
+        width: 339px;
+         margin-right: -40px !important ;
+    }
+    .client-3{
+        width: 339px;
+        margin-right: -40px !important ;  
+    }
+
+}
+@media screen and (max-width:376px){
+    .client-1{
+        width: 329px;
+         margin-right: -40px !important ;
+    }
+    .client-2{
+         width: 329px;
+         margin-right: -40px !important ;
+    }
+    .client-3{
+        width: 329px;
+        margin-right: -40px !important ;  
+    }
+
+}
+
+@media screen and (max-width:372px){
+
+    .client-1{
+        width: 321px;
+         margin-right: -40px !important ;
+    }
+    .client-2{
+        width: 321px;
+        margin-right: -40px !important ;
+   }
+   .client-3{
+    width: 321px;
+    margin-right: -40px !important ;  
+  }
+
+}
+@media screen and (max-width:362px){
+
+    .client-1{
+        width: 316px;
+         margin-right: -40px !important ;
+    }
+    .client-2{
+        width: 316px;
+        margin-right: -40px !important ;
+    }
+   .client-3{
+    width: 316px;
+    margin-right: -40px !important ;  
+   }
+
+}
+@media screen and (max-width:352px){
+
+    .client-1{
+        width: 305px;
+         margin-right: -40px !important ;
+    }
+    .client-2{
+        width: 305px;
+        margin-right: -40px !important ;
+    }
+    .client-3{
+        width: 305px;
+        margin-right: -40px !important ;  
+    }
+
+}
+@media screen and (max-width:346px){
+
+    .client-1{
+        width: 299px;
+         margin-right: -40px !important ;
+    }
+    .client-2{
+        width: 299px;
+        margin-right: -40px !important ;
+    }
+    .client-3{
+        width: 299px;
+        margin-right: -40px !important ;  
+    }
+
+}
+@media screen and (max-width:334px){
+
+    .client-1{
+        width: 288px;
+         margin-right: -40px !important ;
+    }
+
+    .client-2{
+        width: 288px;
+        margin-right: -40px !important ;
+    }
+    .client-3{
+        width:288px;
+        margin-right:-40px !important ;  
+    }
+
+}
+@media screen and (max-width:324px){
+    .client-1{
+        width: 282px;
+         margin-right: -10px !important ;
+    }
+    .client-2{
+        width: 282px;
+        margin-right: -40px !important ;
+    }
+    .client-3{
+        width:282px;
+        margin-right:-40px !important ;  
+    }
+
+}
+@media screen and (max-width:318px){
+    .client-1{
+        width: 271px;
+         margin-right: -10px !important ;
+    }
+    .client-2{
+        width: 271px;
+        margin-right: -40px !important ;
+    }
+    .client-3{
+        width:271px;
+        margin-right:-40px !important ;  
+    }
+}
+@media screen and (max-width:306px){
+
+    .client-1{
+        width: 261px;
+         margin-right: -10px !important ;
+    }
+    .client-2{
+        width: 261px;
+        margin-right: -40px !important ;
+    }
+    .client-3{
+        width:261px;
+        margin-right:-40px !important ;  
+    }
+
+}
+@media screen and (max-width:302px){
+    .client-1{
+        width: 257px;
+         margin-right: -10px !important ;
+    }
+    .client-2{
+        width: 257px;
+        margin-right: -40px !important ;
+    }
+    .client-3{
+        width:257px;
+        margin-right:-40px !important ;  
+    }
+
+}
+@media screen and (max-width:292px){
+    .client-1{
+        width: 247px;
+         margin-right: -10px !important ;
+    }
+    .client-2{
+        width: 247px;
+        margin-right: -40px !important ;
+    }
+    .client-3{
+        width:247px;
+        margin-right:-40px !important ;  
+    }
+
+}
+@media screen and (max-width:286px){
+    .client-1{
+        width: 238px;
+         margin-right: -10px !important ;
+    }
+    .client-2{
+        width: 238px;
+        margin-right: -40px !important ;
+    }
+    .client-3{
+        width:238px;
+        margin-right:-40px !important ;  
+    }
+
+}
+@media screen and (max-width:272px){
+    .client-1{
+        width: 228px;
+         margin-right: -10px !important ;
+    }
+    .client-2{
+        width: 228px;
+        margin-right: -40px !important ;
+    }
+    .client-3{
+        width:228px;
+        margin-right:-40px !important ;  
+    }
+
+}
+@media screen and (max-width:266px){
+    .client-1{
+        width: 223px;
+         margin-right: -10px !important ;
+    }
+    .client-2{
+        width: 223px;
+        margin-right: -40px !important ;
+    }
+    .client-3{
+        width:223px;
+        margin-right:-40px !important ;  
+    }
+
+}
+/* contact-styling-end */
+
+@media only screen and (max-width:991px) {
+    .landing-page-content{
+        text-align: center !important;
+    }
+}
