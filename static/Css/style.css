@@ -578,6 +578,14 @@ p{
     .fa-shopping-cart{
        margin: 0px 18px !important;
     }
+    .search-bg{
+        width: 100% !important;
+        padding: 10px !important;
+    }
+     .form-control{
+        width: 100% !important;
+        margin: auto !important;
+    }
 }
 
 /* site-Map-styling-start */
@@ -608,7 +616,11 @@ p{
     text-decoration: none;
 
 }
-
+.search-bg{
+    background-image: url(../img/searchBg.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 
 
