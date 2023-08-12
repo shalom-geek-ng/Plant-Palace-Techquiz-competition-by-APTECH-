@@ -590,6 +590,10 @@ p{
    .about-content{
     text-align: center ;
    }
+   .cart-contained{
+    left: 8% !important; 
+    top: 0 !important;
+}
 }
 
 /* site-Map-styling-start */
