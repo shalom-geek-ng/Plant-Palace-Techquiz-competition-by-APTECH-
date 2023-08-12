@@ -45,11 +45,21 @@
         
         </ul>
         
-           <a class="nav-link active"  style="color: white;" aria-current="page" href="#"><i class="fa fa-shopping-cart fs-4"
-            aria-hidden="true">
-          </i> </a>
+           <!-- <a class="nav-link active"  style="color: white;" aria-current="page" href="#"><i class="fa cart-icon fa-shopping-cart fs-4"
+            aria-hidden="true" style="position: relative;">
+            <button class="cart-contained" type="button" class="btn-count btn-primary cart-circle" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="position: absolute; top:10%;left: 70%;  border-radius: 50%; width: fit-content; height: fit-content; background-color: goldenrod; padding: 0px 5px;">
+              0
+              </button>
+          </i> </a> -->
+
+          <div style="position: relative;">
+          <i class="fa fa-shopping-cart fs-4 "  id="cart-icon" style="font-size: 25px; color: white; margin-left: 5px; margin-top: 10px;" aria-hidden="true"></i> 
+      <button class="cart-contained" type="button" class="btn btn-primary cart-circle" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="position: absolute; top:5%;left: 60%;  border-radius: 50%; width: fit-content; height: fit-content; background-color: goldenrod; padding: 0px 5px;">
+      0
+      </button>
       </div>
     </div>
+  </div>
   </nav>
   <!-- NavBar end -->
 
@@ -61,7 +71,7 @@
       <a href="#Categories">
         <div class="custom-box mt-5"
           style="width: fit-content; height: fit-content; margin: auto; padding: 10px; background-color: #8bc34a; color: black;">
-          <strong> Our Categories</strong></div>
+          <strong> Plant Categories</strong></div>
       </a>
     </div>
   </div>
@@ -129,7 +139,7 @@
                     <div class="col-sm-6 col-12">
                         <img class="" src="static/img-about/b4.webp" alt>
                         <h5>Environmentally friendly</h5>
-                        <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
+                        <p>Explore our plant website guilt-free, as we're committed to sustainability. Our eco-friendly platform promotes green living and plant care, contributing to a healthier planet for generations to come</p>
                     </div>
 
                 
@@ -164,6 +174,18 @@
     <input class="form-control me-2 bg-light" style="border: 0px !important; width: 600px; height: 50px; margin: auto !important; border-radius: 0px !important;" type="search"
       placeholder="Search Our Plants in each categories...." aria-label="Search">
     </div>
+
+
+    <div style="margin: auto !important; width: fit-content;">
+    <select id="sortSelect">
+      <option value="default">Sort by</option>
+      <option value="alphabetical">Alphabetical Order</option>
+      <option value="price">Price</option>
+      <option value="botanical">Botanical Name</option>
+    </select>
+  </div>
+
+
   <nav style="margin:50px auto ; width: fit-content;">
     <div class="nav nav-tabs" id="nav-tab" role="tablist" style="color: #8bc34a !important;">
       <!-- nav-indoor button start -->
@@ -217,8 +239,8 @@
               </p>
               <!-- category-bottom-box start -->
               <div class="category-bottom-box">
-                <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                  aria-hidden="true"></i></div>
+                <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></button>
               <div class="learn-div"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Read More...</div>
               </div>
@@ -276,8 +298,8 @@
                 <strong>Price</strong>: N6,000
               </p>
               <div class="category-bottom-box">
-                <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                  aria-hidden="true"></i></div>
+                <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></button>
               <div class="learn-div"  data-bs-toggle="modal" data-bs-target="#exampleModal2">
                 Read More...</div>
               </div>
@@ -337,8 +359,8 @@
                 <strong>Price</strong>: N5,000
               </p>
               <div class="category-bottom-box">
-                <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                  aria-hidden="true"></i></div>
+                <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></button>
               <div class="learn-div"  data-bs-toggle="modal" data-bs-target="#snakeModal">
                 Read More...</div>
               </div>
@@ -395,8 +417,8 @@
                 <strong>Price</strong>: N10,500
               </p>
               <div class="category-bottom-box">
-                <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                  aria-hidden="true"></i></div>
+                <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></button>
               <div class="learn-div"  data-bs-toggle="modal" data-bs-target="#pothos">
                 Read More...</div>
 
@@ -458,8 +480,8 @@
                 <strong>Price</strong>: N5,000
 
                 <div class="category-bottom-box">
-                  <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                    aria-hidden="true"></i></div>
+                  <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                    aria-hidden="true"></i></button>
                 <div class="learn-div"  data-bs-toggle="modal" data-bs-target="#Zamolicious">
                   Read More...</div>
                 </div>
@@ -514,8 +536,8 @@
                 <strong>Price</strong>: N12,000
               </p>
               <div class="category-bottom-box">
-                <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                  aria-hidden="true"></i></div>
+                <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Rubber">
                 Read More...</div>
               </div>
@@ -570,8 +592,8 @@
                 <strong>Price</strong>: N5,000
               </p>
               <div class="category-bottom-box">
-                <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                  aria-hidden="true"></i></div>
+                <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Devil">
                 Read More...</div>
               </div>
@@ -626,8 +648,8 @@
                 <strong>Price</strong>: N2,000
               </p>
               <div class="category-bottom-box">
-                <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                  aria-hidden="true"></i></div>
+                <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Chinese">
                 Read More...</div>
               </div>
@@ -690,8 +712,8 @@
                 <strong>Price</strong>: N500
               </p>
               <div class="category-bottom-box">
-                <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                  aria-hidden="true"></i></div>
+                <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Rose">
                 Read More...</div>
               </div>
@@ -745,8 +767,8 @@
              <!--  -->
              <strong>Price</strong>: N1,000</p>
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Lavender">
                 Read More...</div>
              </div>
@@ -802,8 +824,8 @@
              <!--  -->
              <strong>Price</strong>: N3,000</p>
              <div class="category-bottom-box">
-                <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                  aria-hidden="true"></i></div>
+                <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></button>
              <div class="learn-div" data-bs-toggle="modal" data-bs-target="#sunflower">
               Read More...</div>
            </div>
@@ -859,8 +881,8 @@
              <!--  -->
              <strong>Price</strong>: N4,000</p>
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Tulip">
                 Read More...</div>
              </div>
@@ -921,8 +943,8 @@
             <strong>Price</strong>: N12,000</p>
 
             <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Lily">
                 Read More...</div>
             </div>
@@ -978,8 +1000,8 @@
              <strong>Price</strong>: N8,000</p>
 
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Geranium">
                 Read More...</div>
             </div>
@@ -1035,8 +1057,8 @@
              <!--  -->
              <strong>Price</strong>: N2,000</p>
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#marigold">
                 Read More...</div>
              </div>
@@ -1093,8 +1115,8 @@
              <strong>Price</strong>: N5,000</p>
 
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#daisy">
                 Read More...</div>
                 </div>
@@ -1160,8 +1182,8 @@
                 <strong>Price</strong>: N3500
               </p>
               <div class="category-bottom-box">
-                <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                  aria-hidden="true"></i></div>
+                <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Echeveira">
                 Read More...</div>
               </div>
@@ -1215,8 +1237,8 @@
              <!--  -->
              <strong>Price</strong>: N1,000</p>
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Sempervivum">
                 Read More...</div>
              </div>
@@ -1272,8 +1294,8 @@
              <!--  -->
              <strong>Price</strong>: N10,000</p>
              <div class="category-bottom-box">
-                <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                  aria-hidden="true"></i></div>
+                <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></button>
              <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Crassula">
               Read More...</div>
            </div>
@@ -1329,8 +1351,8 @@
              <!--  -->
              <strong>Price</strong>: N2,000</p>
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#AloeVera">
                 Read More...</div>
              </div>
@@ -1391,8 +1413,8 @@
             <strong>Price</strong>: N12,000</p>
 
             <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Sedum">
                 Read More...</div>
             </div>
@@ -1454,8 +1476,8 @@
              <strong>Price</strong>: N4,000</p>
 
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Kalanchoe">
                 Read More...</div>
             </div>
@@ -1516,8 +1538,8 @@
              <!--  -->
              <strong>Price</strong>: N2,000</p>
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Agave">
                 Read More...</div>
              </div>
@@ -1574,8 +1596,8 @@
              <strong>Price</strong>: N5,000</p>
 
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Haworthia">
                 Read More...</div>
                 </div>
@@ -1640,8 +1662,8 @@
                 <strong>Price</strong>: N500
               </p>
               <div class="category-bottom-box">
-                <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                  aria-hidden="true"></i></div>
+                <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Rose2">
                 Read More...</div>
               </div>
@@ -1695,8 +1717,8 @@
              <!--  -->
              <strong>Price</strong>: N1,000</p>
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Lilac">
                 Read More...</div>
              </div>
@@ -1752,8 +1774,8 @@
              <!--  -->
              <strong>Price</strong>: N10,000</p>
              <div class="category-bottom-box">
-                <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                  aria-hidden="true"></i></div>
+                <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                  aria-hidden="true"></i></button>
              <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Hydrangea">
               Read More...</div>
            </div>
@@ -1809,8 +1831,8 @@
              <!--  -->
              <strong>Price</strong>: N2,000</p>
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Azalea">
                 Read More...</div>
              </div>
@@ -1871,8 +1893,8 @@
             <strong>Price</strong>: N12,000</p>
 
             <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Forsythia">
                 Read More...</div>
             </div>
@@ -1934,8 +1956,8 @@
              <strong>Price</strong>: N4,000</p>
 
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Rhododendron">
                 Read More...</div>
             </div>
@@ -1996,8 +2018,8 @@
              <!--  -->
              <strong>Price</strong>: N2,000</p>
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Spirea">
                 Read More...</div>
              </div>
@@ -2054,8 +2076,8 @@
              <strong>Price</strong>: N5,000</p>
 
              <div class="category-bottom-box">
-              <div class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
-                aria-hidden="true"></i></div>
+              <button class="cart-btn boxed-bottom-btn " >ADD TO CART<i class="fa fa-shopping-cart fs-4"
+                aria-hidden="true"></i></button>
               <div class="learn-div" data-bs-toggle="modal" data-bs-target="#Haworthia">
                 Read More...</div>
                 </div>
@@ -2178,7 +2200,7 @@
             </a>
           </p>
           <p style="text-align: center;">
-            <a href="https://twitter.com/OluwafemiShalo1"> <span class="fa-stack fa-lg">
+            <a href="https://twitter.com/IBtechcode"> <span class="fa-stack fa-lg">
               <i class="fa fa-circle-thin fa-stack-2x" style="color: black;"></i>
               <i class="fa fa-twitter fa-stack-1x" style="color: black;"></i>
           </a>
@@ -2199,10 +2221,20 @@
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
           <p class=""> 16,Express Road, Aptech, Ogun State.</p>
           <p class="">
+            
+            <a href="mailto:oluwafemishalom3@gmail.com" style="color: black;">oluwafemishalom3@gmail.com</a> <br>
+            <a href="mailto:oladipupoibrahim10@gmail.com" style="color: black;">oladipupoibrahim10@gmail.com</a> <br>
            
-           oluwafemishalom3@gmail.com
+           
+           
           </p>
-          <p class=""> +234 816 664 98 97</p>
+          <p class="">
+           <a href=""></a>
+           <a href="tel:+234 816 664 98 97" style="color: black;">+234 816 664 98 97</a> <br>
+           <a href="tel:+234 9011233223" style="color: black;">+234 9011233223</a>
+            
+          </p>
+          
           
         </div>
         <!-- Grid column -->

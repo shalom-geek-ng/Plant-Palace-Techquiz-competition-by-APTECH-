@@ -625,9 +625,49 @@ p{
     background-size: cover;
     background-position: center;
 }
-
-
-
+button{
+    border: 0px !important;
+}
+.count{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 90%;
+    top: 0;
+    transform: translateX(100%);
+    /* display: inline-flex;
+    top: 0;
+    left: 100%;
+    transform: translate(-50%,-50%);
+    background-color: #8bc34a;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 400px;
+    font-size: 14px;
+    transition: all ease 1s;
+    z-index: 1; */
+}
+.cart{
+    position: absolute;
+    right: 3%;
+    top: 0;
+    margin: auto;
+    border-radius: 4px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-size: 20px;
+}
+.btn-count{
+    padding: 16px 32px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
 
 
 
