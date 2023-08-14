@@ -32,6 +32,7 @@ searchInput.addEventListener("input", () => {
 
 
 
+
 // Get the cart icon element and the cart contained button element
 const cartIcon = document.querySelector('#cart-icon');
 const cartContained = document.querySelector('.cart-contained');
@@ -108,6 +109,10 @@ function openStoreModal(id) {
 }
 
 openStoreModal(0);
+
+
+
+
 
 
 
